@@ -59,6 +59,6 @@ app.post('/failure', (req, res)=> {
   res.redirect('/');
 });
 
-app.listen(precess.env.PORT || port, ()=> console.log(`Server is running on port ${port}`));
+app.listen(process.env.PORT || port, ()=> console.log(`Server is running on port ${port}`));
 //Mailchimp API 6c3bd5b24915a69a843e23fc22885068-us20
 //List id 2022afba56
